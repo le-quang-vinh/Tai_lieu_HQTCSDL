@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "scale": "custom_3000000",
+  "counts": {
+    "category": 60,
+    "store": 50,
+    "customer": 300000,
+    "product": 50000,
+    "inventory": 500000,
+    "orders": 3000000,
+    "order_item": 8101297,
+    "payment": 3150127
+  },
+  "date_range": [
+    "2024-01-01 00:00:04",
+    "2025-12-31 23:59:40"
+  ],
+  "orders_by_status": {
+    "DELIVERED": 1948616,
+    "RETURNED": 90131,
+    "PENDING": 150381,
+    "PAID": 299721,
+    "SHIPPED": 300683,
+    "CANCELLED": 210468
+  },
+  "revenue_gross": "816887197.08",
+  "revenue_net_excluding_cancelled_returned": "734951327.89",
+  "skew": {
+    "zipf_s_product": 1.1,
+    "zipf_s_customer": 0.7,
+    "top1pct_products_share_of_order_lines": 0.7131,
+    "top1pct_customers_share_of_orders": 0.2377,
+    "max_orders_single_customer": 20713,
+    "hot_customer_id": 107179,
+    "hot_product_id": 3137
+  },
+  "elapsed_seconds": 206.1
+}
